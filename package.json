@@ -1,0 +1,77 @@
+{
+    "name": "{%packageName%}",
+    "type": "module",
+    "version": "0.0.0",
+    "description": "{%packageDescription%}",
+    "author": "{%name%} <{%email%}>",
+    "license": "MIT",
+    "homepage": "https://github.com/{%repo%}",
+    "repository": "github:{%repo%}",
+    "bugs": {
+        "email": "{%email%}",
+        "url": "https://github.com/{%repo%}/issues"
+    },
+    "sideEffects": false,
+    "exports": {
+        ".": {
+            "types": "./dist/types/index.d.ts",
+            "require": "./dist/index.cjs",
+            "default": "./dist/index.js"
+        }
+    },
+    "main": "dist/index.js",
+    "types": "dist/types/index.d.ts",
+    "files": [
+        "dist",
+        "src"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "dev": "vitest watch",
+        "build": "rimraf dist && tsup && tsc --project ./tsconfig.build.json",
+        "test": "vitest run",
+        "coverage": "vitest run --coverage",
+        "release": "tsx scripts/release.ts && changelogen gh release && npm publish",
+        "up": "ncu -i",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "preinstall": "npx only-allow pnpm",
+        "prepare": "simple-git-hooks",
+        "prepublishOnly": "pnpm build"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^18.4.4",
+        "@commitlint/config-conventional": "^18.4.4",
+        "@inquirer/prompts": "^3.3.0",
+        "@kdt310722/eslint-config": "^0.0.2",
+        "@kdt310722/tsconfig": "^1.0.0",
+        "@swc/core": "^1.3.103",
+        "@types/node": "^20.11.3",
+        "@vitest/coverage-v8": "^1.2.0",
+        "changelogen": "^0.5.5",
+        "eslint": "^8.56.0",
+        "execa": "^8.0.1",
+        "fast-glob": "^3.3.2",
+        "lint-staged": "^15.2.0",
+        "npm-check-updates": "^16.14.12",
+        "only-allow": "^1.2.1",
+        "rimraf": "^5.0.5",
+        "simple-git-hooks": "^2.9.0",
+        "tsup": "^8.0.1",
+        "tsx": "^4.7.0",
+        "typescript": "^5.3.3",
+        "vitest": "^1.2.0"
+    },
+    "commitlint": {
+        "extends": "@commitlint/config-conventional"
+    },
+    "simple-git-hooks": {
+        "commit-msg": "npx --no -- commitlint --edit ${1}",
+        "pre-commit": "npx lint-staged"
+    },
+    "lint-staged": {
+        "*": "eslint --fix"
+    }
+}
