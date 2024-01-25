@@ -29,10 +29,10 @@
         "access": "public"
     },
     "scripts": {
-        "dev": "vitest watch",
+        "dev": "vitest watch --typecheck",
         "build": "rimraf dist && tsup && tsc --project ./tsconfig.build.json",
-        "test": "vitest run",
-        "coverage": "vitest run --coverage",
+        "test": "vitest run --typecheck",
+        "coverage": "pnpm test -- --coverage",
         "release": "tsx scripts/release.ts && changelogen gh release && npm publish",
         "up": "ncu -i",
         "lint": "eslint .",
