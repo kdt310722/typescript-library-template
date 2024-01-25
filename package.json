@@ -33,7 +33,7 @@
         "build": "rimraf dist && tsup && tsc --project ./tsconfig.build.json",
         "test": "vitest run --typecheck",
         "coverage": "pnpm test -- --coverage",
-        "release": "tsx scripts/release.ts && changelogen gh release && npm publish",
+        "release": "tsx scripts/release.ts && changelogen gh release && pnpm publish",
         "up": "ncu -i",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
