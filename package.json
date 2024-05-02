@@ -48,8 +48,8 @@
         "@kdt310722/eslint-config": "^0.0.5",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.4.17",
-        "@types/node": "^20.12.7",
-        "@vitest/coverage-v8": "^1.5.2",
+        "@types/node": "^20.12.8",
+        "@vitest/coverage-v8": "^1.5.3",
         "changelogen": "^0.5.5",
         "eslint": "^8.57.0",
         "execa": "^8.0.1",
@@ -60,9 +60,9 @@
         "rimraf": "^5.0.5",
         "simple-git-hooks": "^2.11.1",
         "tsup": "^8.0.2",
-        "tsx": "^4.7.3",
+        "tsx": "^4.8.2",
         "typescript": "^5.4.5",
-        "vitest": "^1.5.2"
+        "vitest": "^1.5.3"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
