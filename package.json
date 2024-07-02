@@ -51,7 +51,7 @@
         "@types/node": "^20.14.8",
         "@vitest/coverage-v8": "^1.6.0",
         "changelogen": "^0.5.5",
-        "eslint": "^8.57.0",
+        "eslint": "^9.6.0",
         "execa": "^8.0.1",
         "fast-glob": "^3.3.2",
         "lint-staged": "^15.2.7",
