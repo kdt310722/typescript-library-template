@@ -44,7 +44,7 @@
     "devDependencies": {
         "@commitlint/cli": "^19.3.0",
         "@commitlint/config-conventional": "^19.2.2",
-        "@inquirer/prompts": "^5.1.3",
+        "@inquirer/prompts": "^5.2.0",
         "@kdt310722/eslint-config": "^0.0.5",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.6.13",
@@ -59,7 +59,7 @@
         "only-allow": "^1.2.1",
         "rimraf": "^6.0.1",
         "simple-git-hooks": "^2.11.1",
-        "tsup": "^8.1.1",
+        "tsup": "^8.1.2",
         "tsx": "^4.16.2",
         "typescript": "^5.5.3",
         "vitest": "^2.0.3"

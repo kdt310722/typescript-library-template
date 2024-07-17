@@ -15,8 +15,8 @@ importers:
         specifier: ^19.2.2
         version: 19.2.2
       '@inquirer/prompts':
-        specifier: ^5.1.3
-        version: 5.1.3
+        specifier: ^5.2.0
+        version: 5.2.0
       '@kdt310722/eslint-config':
         specifier: ^0.0.5
         version: 0.0.5(@vue/compiler-sfc@3.4.14)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@6.20.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint@8.57.0)(tailwindcss@3.4.1)(typescript@5.5.3)
@@ -60,8 +60,8 @@ importers:
         specifier: ^2.11.1
         version: 2.11.1
       tsup:
-        specifier: ^8.1.1
-        version: 8.1.1(@swc/core@1.6.13)(jiti@1.21.0)(postcss@8.4.33)(tsx@4.16.2)(typescript@5.5.3)(yaml@2.4.2)
+        specifier: ^8.1.2
+        version: 8.1.2(@swc/core@1.6.13)(jiti@1.21.0)(postcss@8.4.33)(tsx@4.16.2)(typescript@5.5.3)(yaml@2.4.2)
       tsx:
         specifier: ^4.16.2
         version: 4.16.2
@@ -678,8 +678,8 @@ packages:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
     deprecated: Use @eslint/object-schema instead
 
-  '@inquirer/checkbox@2.3.11':
-    resolution: {integrity: sha512-pCt02FZNLX9u8j/42n6iJyJnInbrvrygOfX+Fc4TcASbNRwNUcvhjxR2t49AdlmiO8oXAT3GhFH1T+2GpZPCfw==}
+  '@inquirer/checkbox@2.4.0':
+    resolution: {integrity: sha512-XHOCmntitRBD8SJcrv+6X9YakxO1wfsvezOnU5MBIXeTlSBRCVk9DOIrx6Cgi9BS3qkcy7oQb+fUGEKrP6xecQ==}
     engines: {node: '>=18'}
 
   '@inquirer/confirm@3.1.15':
@@ -714,16 +714,16 @@ packages:
     resolution: {integrity: sha512-/JmiTtIcSYbZdPucEW5q2rhC71vGKPivm3LFqNDQEI6lJyffq7hlfKKFC+R1Qp19dMqkaG+O5L1XmcHpmlAUUQ==}
     engines: {node: '>=18'}
 
-  '@inquirer/prompts@5.1.3':
-    resolution: {integrity: sha512-CguIOxmb5RevOGgkPToKcfaogx2IfgLmIFDmAjqWwvh5DfRWYl5qp1wAMo4SyH0BGQRuxbchkYJr0x1BgB7AVg==}
+  '@inquirer/prompts@5.2.0':
+    resolution: {integrity: sha512-7jBWrlkvprEHEFw29zG/piw/M76c5/zYQWfi8ybHeyzcTuXkh1NjDQxLg2PiruvsIt36z1zvKM5yn7vbF0Yr/A==}
     engines: {node: '>=18'}
 
   '@inquirer/rawlist@2.1.15':
     resolution: {integrity: sha512-zwU6aWDMyuQNiY5Z0iYXkxi7pliRFXqUmiS7vG6lAGxqcbOSptYgIxGJnd3AU4Y91N0Tbt57+koJL0S2p6vSkA==}
     engines: {node: '>=18'}
 
-  '@inquirer/select@2.3.11':
-    resolution: {integrity: sha512-DebGErUSCyzwIP2zx3hs1X4TAzxSl/yNHzuYGE6KFkHq3ubg+5dJZacFxN1C1eBkJvQ0XBWGpY6MTzHsJbxkpw==}
+  '@inquirer/select@2.4.0':
+    resolution: {integrity: sha512-iU1eRkHirVNs43zWk6anMIMKc7tCXlJ+I5DcpIV7JzMe+45TuPPOGGCgeGIkZ4xYJ3cXdFoh7GJpm84PNC8veg==}
     engines: {node: '>=18'}
 
   '@inquirer/type@1.5.0':
@@ -4077,8 +4077,8 @@ packages:
   tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  tsup@8.1.1:
-    resolution: {integrity: sha512-lLXP3BshJ6y/32b3tPZUB2siD2mkJ6mLzhbPOShfjogSc3aRw8MhbBV4cPKbqkbXuhsJR+c9B0W9RHMbtbXLMQ==}
+  tsup@8.1.2:
+    resolution: {integrity: sha512-Gzw/PXSX/z0aYMNmkcI54bKKFVFJQbLne+EqTJZeQ3lNT3QpumjtMU4rl+ZwTTp8oRF3ahMbEAxT2sZPJLFSrg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -4835,7 +4835,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.2': {}
 
-  '@inquirer/checkbox@2.3.11':
+  '@inquirer/checkbox@2.4.0':
     dependencies:
       '@inquirer/core': 9.0.3
       '@inquirer/figures': 1.0.4
@@ -4894,9 +4894,9 @@ snapshots:
       '@inquirer/type': 1.5.0
       ansi-escapes: 4.3.2
 
-  '@inquirer/prompts@5.1.3':
+  '@inquirer/prompts@5.2.0':
     dependencies:
-      '@inquirer/checkbox': 2.3.11
+      '@inquirer/checkbox': 2.4.0
       '@inquirer/confirm': 3.1.15
       '@inquirer/editor': 2.1.15
       '@inquirer/expand': 2.1.15
@@ -4904,7 +4904,7 @@ snapshots:
       '@inquirer/number': 1.0.3
       '@inquirer/password': 2.1.15
       '@inquirer/rawlist': 2.1.15
-      '@inquirer/select': 2.3.11
+      '@inquirer/select': 2.4.0
 
   '@inquirer/rawlist@2.1.15':
     dependencies:
@@ -4912,7 +4912,7 @@ snapshots:
       '@inquirer/type': 1.5.0
       yoctocolors-cjs: 2.1.2
 
-  '@inquirer/select@2.3.11':
+  '@inquirer/select@2.4.0':
     dependencies:
       '@inquirer/core': 9.0.3
       '@inquirer/figures': 1.0.4
@@ -8688,7 +8688,7 @@ snapshots:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       didyoumean: 1.2.2
       dlv: 1.1.3
       fast-glob: 3.3.2
@@ -8785,7 +8785,7 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tsup@8.1.1(@swc/core@1.6.13)(jiti@1.21.0)(postcss@8.4.33)(tsx@4.16.2)(typescript@5.5.3)(yaml@2.4.2):
+  tsup@8.1.2(@swc/core@1.6.13)(jiti@1.21.0)(postcss@8.4.33)(tsx@4.16.2)(typescript@5.5.3)(yaml@2.4.2):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.0)
       cac: 6.7.14
