@@ -47,7 +47,7 @@
         "@inquirer/prompts": "^5.3.8",
         "@kdt310722/eslint-config": "^0.0.5",
         "@kdt310722/tsconfig": "^1.0.0",
-        "@swc/core": "^1.7.14",
+        "@swc/core": "^1.7.18",
         "@types/node": "^20.16.1",
         "@vitest/coverage-v8": "^2.0.5",
         "changelogen": "^0.5.5",
@@ -60,7 +60,7 @@
         "rimraf": "^6.0.1",
         "simple-git-hooks": "^2.11.1",
         "tsup": "^8.2.4",
-        "tsx": "^4.17.0",
+        "tsx": "^4.18.0",
         "typescript": "^5.5.4",
         "vitest": "^2.0.5"
     },
