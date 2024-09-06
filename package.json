@@ -44,7 +44,7 @@
     "devDependencies": {
         "@commitlint/cli": "^19.4.1",
         "@commitlint/config-conventional": "^19.4.1",
-        "@inquirer/prompts": "^5.4.0",
+        "@inquirer/prompts": "^5.5.0",
         "@kdt310722/eslint-config": "^0.0.5",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.7.23",
