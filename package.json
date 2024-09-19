@@ -50,7 +50,7 @@
         "@swc/core": "^1.7.26",
         "@types/node": "^20.16.5",
         "@vitest/coverage-v8": "^2.1.1",
-        "changelogen": "^0.5.5",
+        "changelogen": "^0.5.7",
         "eslint": "^8.57.1",
         "execa": "^8.0.1",
         "fast-glob": "^3.3.2",
