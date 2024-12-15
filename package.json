@@ -43,7 +43,7 @@
         "prepublishOnly": "pnpm build"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.6.0",
+        "@commitlint/cli": "^19.6.1",
         "@commitlint/config-conventional": "^19.6.0",
         "@inquirer/prompts": "^7.2.0",
         "@kdt310722/eslint-config": "^0.1.8",
