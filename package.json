@@ -2,7 +2,7 @@
     "name": "{%packageName%}",
     "type": "module",
     "version": "0.0.0",
-    "packageManager": "pnpm@9.15.5+sha512.845196026aab1cc3f098a0474b64dfbab2afe7a1b4e91dd86895d8e4aa32a7a6d03049e2d0ad770bbe4de023a7122fb68c1a1d6e0d033c7076085f9d5d4800d4",
+    "packageManager": "pnpm@9.15.6+sha512.139cab068fdf0b751268179ac5f909b5be72afb4a75c513d1905d151befc8977b593d3cf8671ed83d4d6637c5c94b98ffbce108125de4a5a27a31233601a99de",
     "description": "{%packageDescription%}",
     "author": "{%name%} <{%email%}>",
     "license": "MIT",
@@ -50,7 +50,7 @@
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.10.18",
         "@types/node": "^22.13.5",
-        "@vitest/coverage-v8": "^3.0.6",
+        "@vitest/coverage-v8": "^3.0.7",
         "changelogen": "^0.5.7",
         "eslint": "^9.21.0",
         "execa": "^9.5.2",
@@ -63,7 +63,7 @@
         "tsup": "^8.3.6",
         "tsx": "^4.19.3",
         "typescript": "^5.7.3",
-        "vitest": "^3.0.6"
+        "vitest": "^3.0.7"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
