@@ -50,7 +50,7 @@
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.15.0",
         "@types/node": "^24.10.0",
-        "@vitest/coverage-v8": "^4.0.7",
+        "@vitest/coverage-v8": "^4.0.8",
         "changelogen": "^0.6.2",
         "eslint": "^9.39.1",
         "execa": "^9.6.0",
@@ -63,7 +63,7 @@
         "tsup": "^8.5.0",
         "tsx": "^4.20.6",
         "typescript": "^5.9.3",
-        "vitest": "^4.0.7"
+        "vitest": "^4.0.8"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
