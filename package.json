@@ -43,8 +43,8 @@
         "prepublishOnly": "pnpm build"
     },
     "devDependencies": {
-        "@commitlint/cli": "^20.4.2",
-        "@commitlint/config-conventional": "^20.4.2",
+        "@commitlint/cli": "^20.4.3",
+        "@commitlint/config-conventional": "^20.4.3",
         "@inquirer/prompts": "^8.3.0",
         "@kdt310722/eslint-config": "^0.2.0",
         "@kdt310722/tsconfig": "^1.0.0",
@@ -55,7 +55,7 @@
         "eslint": "^9.39.3",
         "execa": "^9.6.1",
         "fast-glob": "^3.3.3",
-        "lint-staged": "^16.3.1",
+        "lint-staged": "^16.3.2",
         "npm-check-updates": "^19.6.3",
         "only-allow": "^1.2.2",
         "rimraf": "^6.1.3",
