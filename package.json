@@ -43,14 +43,14 @@
         "prepublishOnly": "pnpm build"
     },
     "devDependencies": {
-        "@commitlint/cli": "^20.4.3",
-        "@commitlint/config-conventional": "^20.4.3",
+        "@commitlint/cli": "^20.4.4",
+        "@commitlint/config-conventional": "^20.4.4",
         "@inquirer/prompts": "^8.3.0",
         "@kdt310722/eslint-config": "^0.2.0",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.15.18",
         "@types/node": "^24.12.0",
-        "@vitest/coverage-v8": "^4.0.18",
+        "@vitest/coverage-v8": "^4.1.0",
         "changelogen": "^0.6.2",
         "eslint": "^9.39.4",
         "execa": "^9.6.1",
@@ -63,7 +63,7 @@
         "tsup": "^8.5.1",
         "tsx": "^4.21.0",
         "typescript": "^5.9.3",
-        "vitest": "^4.0.18"
+        "vitest": "^4.1.0"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
