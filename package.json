@@ -48,7 +48,7 @@
         "@inquirer/prompts": "^8.3.2",
         "@kdt310722/eslint-config": "^0.2.0",
         "@kdt310722/tsconfig": "^1.0.0",
-        "@swc/core": "^1.15.21",
+        "@swc/core": "^1.15.24",
         "@types/node": "^24.12.2",
         "@vitest/coverage-v8": "^4.1.2",
         "changelogen": "^0.6.2",
