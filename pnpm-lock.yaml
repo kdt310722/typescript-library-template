@@ -48,8 +48,8 @@ importers:
         specifier: ^17.0.7
         version: 17.0.7
       npm-check-updates:
-        specifier: ^22.2.1
-        version: 22.2.1
+        specifier: ^22.2.2
+        version: 22.2.2
       only-allow:
         specifier: ^1.2.2
         version: 1.2.2
@@ -2949,8 +2949,8 @@ packages:
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
 
-  npm-check-updates@22.2.1:
-    resolution: {integrity: sha512-mGdIJfhtg+q0BzhbOpbOL73zhMZlgBQMG4wnBwPMMD5k96028UCuV0753YeSYk9odoh7HWK6/cY69bWxT7o+yg==}
+  npm-check-updates@22.2.2:
+    resolution: {integrity: sha512-dgDPmR9FfONMrHdMKsPoYzb2NgR+NxlLGBi3nL/3yN3aFr8IKLyQJMBEMj4pKM5yuv9esV4nL5TX0TY2veliNw==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: '>=10.0.0'}
     hasBin: true
 
@@ -6880,7 +6880,7 @@ snapshots:
 
   node-releases@2.0.19: {}
 
-  npm-check-updates@22.2.1: {}
+  npm-check-updates@22.2.2: {}
 
   npm-run-path@6.0.0:
     dependencies:
