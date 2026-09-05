@@ -55,7 +55,7 @@
         "eslint": "^9.39.5",
         "execa": "^10.0.1",
         "fast-glob": "^3.3.3",
-        "lint-staged": "^17.4.1",
+        "lint-staged": "^17.5.0",
         "npm-check-updates": "^23.1.0",
         "only-allow": "^1.2.2",
         "rimraf": "^6.1.3",
