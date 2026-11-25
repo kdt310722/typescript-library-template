@@ -49,8 +49,8 @@
         "@kdt310722/eslint-config": "^0.2.0",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.16.22",
-        "@types/node": "^26.6.7",
-        "@vitest/coverage-v8": "^5.1.1",
+        "@types/node": "^26.6.10",
+        "@vitest/coverage-v8": "^5.1.2",
         "changelogen": "^0.6.2",
         "eslint": "^9.39.5",
         "execa": "^10.2.1",
@@ -63,7 +63,7 @@
         "tsup": "^9.0.0",
         "tsx": "^4.23.15",
         "typescript": "^5.9.3",
-        "vitest": "^5.1.1"
+        "vitest": "^5.1.2"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
